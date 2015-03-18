@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>9</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>684</x>
+      <y>225</y>
+      <w>126</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Product
+--
+name
+salesPrice
+rentPrice
+barcode(Pkey)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>378</x>
+      <y>234</y>
+      <w>135</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>SalesOrder
+--
+date
+amount
+deliveryStatus
+deliveryDate
+barcode(Fkey)
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>486</x>
+      <y>270</y>
+      <w>215</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>m1=0..*
+m2=1..*
+</panel_attributes>
+    <additional_attributes>27;27;198;27</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>81</x>
+      <y>225</y>
+      <w>90</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>Customer
+--
+name
+address
+zipCode
+city
+phone
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>144</x>
+      <y>270</y>
+      <w>251</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>m1=1
+m2=0..*
+</panel_attributes>
+    <additional_attributes>27;27;234;27</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>378</x>
+      <y>432</y>
+      <w>135</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>Invoice
+--
+invoiceNo
+paymentDate
+amount
+totalPrice
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>414</x>
+      <y>324</y>
+      <w>44</w>
+      <h>125</h>
+    </coordinates>
+    <panel_attributes>m1=  1..*
+m2= 1
+</panel_attributes>
+    <additional_attributes>27;27;27;108</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>603</x>
+      <y>432</y>
+      <w>90</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Clothing
+--
+size
+colour</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>702</x>
+      <y>432</y>
+      <w>99</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Equipment
+--
+type
+description</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>810</x>
+      <y>432</y>
+      <w>90</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>GunReplicas
+--
+fabric
+calibre</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>621</x>
+      <y>315</y>
+      <w>80</w>
+      <h>134</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>63;27;27;117</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>720</x>
+      <y>315</y>
+      <w>44</w>
+      <h>134</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>27;27;27;117</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>783</x>
+      <y>315</y>
+      <w>89</w>
+      <h>134</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>27;27;72;117</additional_attributes>
+  </element>
+</diagram>
