@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="12.2">
-  <zoom_level>7</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>224</x>
-      <y>56</y>
-      <w>63</w>
-      <h>105</h>
+      <x>96</x>
+      <y>32</y>
+      <w>72</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>Employee
 --
@@ -24,10 +24,10 @@ qualifications
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>427</x>
-      <y>70</y>
-      <w>105</w>
-      <h>70</h>
+      <x>328</x>
+      <y>48</y>
+      <w>120</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>Task
 --
@@ -40,10 +40,10 @@ difficulty</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>224</x>
-      <y>189</y>
-      <w>63</w>
-      <h>105</h>
+      <x>96</x>
+      <y>184</y>
+      <w>72</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>Customer
 --
@@ -58,15 +58,14 @@ phone</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>427</x>
-      <y>203</y>
-      <w>105</w>
-      <h>91</h>
+      <x>328</x>
+      <y>200</y>
+      <w>120</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes>Contract
 --
 id
-clinetID
 date
 period
 subscription
@@ -76,26 +75,26 @@ subscription
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>266</x>
-      <y>91</y>
-      <w>174</w>
-      <h>34</h>
+      <x>144</x>
+      <y>72</y>
+      <w>200</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..*
 m2=0..*
 </panel_attributes>
-    <additional_attributes>21;21;161;21</additional_attributes>
+    <additional_attributes>24;24;184;24</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>728</x>
-      <y>371</y>
-      <w>98</w>
-      <h>49</h>
+      <x>632</x>
+      <y>376</y>
+      <w>112</w>
+      <h>56</h>
     </coordinates>
-    <panel_attributes>Antennas
+    <panel_attributes>Antenna
 --
 serialNo
 type</panel_attributes>
@@ -104,12 +103,12 @@ type</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>728</x>
-      <y>469</y>
-      <w>98</w>
-      <h>63</h>
+      <x>632</x>
+      <y>488</y>
+      <w>112</w>
+      <h>72</h>
     </coordinates>
-    <panel_attributes>Cards
+    <panel_attributes>Card
 --
 serialNo
 entryDate
@@ -120,12 +119,12 @@ active</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>609</x>
-      <y>371</y>
-      <w>98</w>
-      <h>49</h>
+      <x>512</x>
+      <y>376</y>
+      <w>112</w>
+      <h>56</h>
     </coordinates>
-    <panel_attributes>Routers
+    <panel_attributes>Router
 --
 serialNo
 type</panel_attributes>
@@ -134,12 +133,12 @@ type</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>490</x>
-      <y>371</y>
-      <w>98</w>
-      <h>49</h>
+      <x>392</x>
+      <y>376</y>
+      <w>112</w>
+      <h>56</h>
     </coordinates>
-    <panel_attributes>Telephones
+    <panel_attributes>Telephone
 --
 serialNo
 type</panel_attributes>
@@ -148,114 +147,115 @@ type</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>266</x>
+      <x>144</x>
       <y>224</y>
-      <w>174</w>
-      <h>34</h>
+      <w>200</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..*
 m2=1..*
 </panel_attributes>
-    <additional_attributes>21;21;161;21</additional_attributes>
+    <additional_attributes>24;24;184;24</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>518</x>
-      <y>273</y>
-      <w>153</w>
-      <h>111</h>
+      <x>424</x>
+      <y>280</y>
+      <w>160</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>lt=-
-m1=1..*
-m2=0..*
+m1=0..*
+m2=1
 </panel_attributes>
-    <additional_attributes>21;98;140;21</additional_attributes>
+    <additional_attributes>24;96;144;24</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>637</x>
-      <y>273</y>
-      <w>34</w>
-      <h>111</h>
+      <x>544</x>
+      <y>280</y>
+      <w>40</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>lt=-
-m1=1..*
-m2=0..*
+m1=0..*
+m2=1
 </panel_attributes>
-    <additional_attributes>21;98;21;21</additional_attributes>
+    <additional_attributes>24;96;24;24</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>637</x>
-      <y>273</y>
-      <w>153</w>
-      <h>111</h>
+      <x>544</x>
+      <y>280</y>
+      <w>160</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>lt=-
-m1=1..*
-m2=0..*
+m1=0..*
+m2=1
 </panel_attributes>
-    <additional_attributes>140;98;21;21</additional_attributes>
+    <additional_attributes>144;96;24;24</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>756</x>
-      <y>399</y>
-      <w>34</w>
-      <h>83</h>
+      <x>664</x>
+      <y>408</y>
+      <w>40</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..*
 m2=1..*
 </panel_attributes>
-    <additional_attributes>21;21;21;70</additional_attributes>
+    <additional_attributes>24;24;24;80</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>455</x>
-      <y>119</y>
-      <w>34</w>
-      <h>97</h>
+      <x>360</x>
+      <y>104</y>
+      <w>40</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..*
 m2=1
 </panel_attributes>
-    <additional_attributes>21;21;21;84</additional_attributes>
+    <additional_attributes>24;24;24;96</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>602</x>
-      <y>203</y>
-      <w>105</w>
-      <h>91</h>
+      <x>512</x>
+      <y>200</y>
+      <w>120</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes>Subscription
 --
 id
 type
+amount
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>511</x>
-      <y>231</y>
+      <x>424</x>
+      <y>232</y>
       <w>104</w>
-      <h>34</h>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..*
-m2=1..*
+m2=1
 </panel_attributes>
-    <additional_attributes>21;21;91;21</additional_attributes>
+    <additional_attributes>88;24;24;24</additional_attributes>
   </element>
 </diagram>
