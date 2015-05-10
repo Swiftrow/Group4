@@ -105,20 +105,6 @@ m2=1..*
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>665</x>
-      <y>301</y>
-      <w>34</w>
-      <h>76</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1..*
-m2=1
-</panel_attributes>
-    <additional_attributes>21;63;21;21</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
       <x>504</x>
       <y>154</y>
       <w>34</w>
@@ -164,25 +150,6 @@ m2=1
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>637</x>
-      <y>364</y>
-      <w>105</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>Equipment
---
-id
-serialNo
-name
-type
-
-
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Class</type>
-    <coordinates>
       <x>518</x>
       <y>490</y>
       <w>105</w>
@@ -202,7 +169,7 @@ type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>637</x>
+      <x>630</x>
       <y>490</y>
       <w>105</w>
       <h>63</h>
@@ -240,34 +207,41 @@ type
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>672</x>
-      <y>406</y>
-      <w>146</w>
-      <h>97</h>
+      <x>665</x>
+      <y>301</y>
+      <w>153</w>
+      <h>202</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>21;21;133;84</additional_attributes>
+    <panel_attributes>lt=&lt;&lt;-
+m1=0..*
+m2=1
+</panel_attributes>
+    <additional_attributes>21;21;140;189</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>553</x>
-      <y>406</y>
-      <w>153</w>
-      <h>97</h>
+      <y>301</y>
+      <w>146</w>
+      <h>202</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>140;21;21;84</additional_attributes>
+    <panel_attributes>lt=&lt;&lt;-
+m1=0..*
+m2=1</panel_attributes>
+    <additional_attributes>133;21;21;189</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>672</x>
-      <y>406</y>
+      <x>665</x>
+      <y>308</y>
       <w>34</w>
-      <h>97</h>
+      <h>195</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>21;21;21;84</additional_attributes>
+    <panel_attributes>lt=&lt;&lt;-
+m1=0..*
+m2=1</panel_attributes>
+    <additional_attributes>21;21;21;182</additional_attributes>
   </element>
 </diagram>
