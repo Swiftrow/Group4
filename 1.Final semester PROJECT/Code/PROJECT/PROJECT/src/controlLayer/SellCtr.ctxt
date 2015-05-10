@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SellCtr()
+comment1.params=date\ c\ e
+comment1.target=void\ createSell(java.lang.String,\ modelLayer.Customer,\ modelLayer.Employee)
+comment2.params=orderLineSell
+comment2.target=void\ addItemToSell(modelLayer.OrderLineSell)
+comment3.params=
+comment3.target=int\ getId()
+comment4.params=
+comment4.target=int\ getIdOls()
+comment5.params=idS
+comment5.target=modelLayer.Sell\ findSell(int)
+comment6.params=idS
+comment6.target=void\ deleteSell(int)
+comment7.params=
+comment7.target=int\ getSellsNo()
+comment8.params=
+comment8.target=int\ getTotalAmountSells()
+numComments=9

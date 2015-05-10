@@ -1,0 +1,50 @@
+package modelLayer;
+
+import java.util.*;
+public class ItemContainer
+{
+    private static ItemContainer instance = null;
+    private ArrayList<Item> items;
+    
+    public ItemContainer(){
+        items = new ArrayList<>();
+    }
+    
+    public static ItemContainer getInstance(){
+        if(instance == null){
+            instance = new ItemContainer();
+        }
+        return instance;
+    }
+    
+    public void addItem(Item i){
+        items.add(i);
+    }
+    
+    public Item findItem(int barcode){
+        for(Item i: items){
+            if(i.getBarcode() == barcode){
+            return i;
+            }
+        }
+        return null;
+    }
+    
+    public void updateItem(int barcode, int noInStock,String name,String description){
+        for(Item i: items){
+            if(i.getBarcode() == barcode){
+            i.setName(name);
+            i.setDescription(description);
+            i.setNoInStock(noInStock);
+            }
+        }
+    }
+    
+    public void deleteItem(int barcode){
+        for(Item i: items){
+            if(i.getBarcode() == barcode){
+            items.remove(i);
+            }
+        }
+    }
+}

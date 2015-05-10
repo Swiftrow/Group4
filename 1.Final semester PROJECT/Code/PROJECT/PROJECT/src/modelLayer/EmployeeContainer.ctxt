@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=EmployeeContainer()
+comment0.text=\r\n\ Constructor\ af\ an\ ArrayList\ of\ type\ Employee.\r\n\ @param\ Employees\ The\ \ array\ list\ that\ holds\ all\ the\ Employee\ objects.\r\n
+comment1.params=
+comment1.target=EmployeeContainer\ getInstance()
+comment1.text=\r\n\ Singleton\ pattern\ which\ ensure\ that\ only\ one\ instance\ of\ a\ class\ is\ created.\r\n\ @param\ instance\ The\ instance\ of\ the\ PersonContainer\ class.\r\n
+comment2.params=e
+comment2.target=void\ addEmployee(Employee)
+comment3.params=employeeId
+comment3.target=Employee\ findEmployee(int)
+comment4.params=employeeId\ name\ address\ phoneNo\ email
+comment4.target=void\ updateEmployee(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment5.params=employeeId
+comment5.target=void\ deleteEmployee(int)
+numComments=6

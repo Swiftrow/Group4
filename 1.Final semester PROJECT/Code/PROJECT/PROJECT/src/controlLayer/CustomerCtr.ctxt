@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CustomerCtr()
+comment1.params=name\ address\ phoneNo\ email\ type
+comment1.target=void\ createCustomer(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=idC
+comment2.target=modelLayer.Customer\ findCustomer(int)
+comment3.params=idC\ name\ address\ phoneNo\ email\ type
+comment3.target=void\ updateCustomer(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment4.params=idC
+comment4.target=void\ deleteCustomer(int)
+comment5.params=idC
+comment5.target=int\ getDiscountType(int)
+numComments=6

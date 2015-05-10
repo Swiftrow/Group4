@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=quantity\ i
+comment0.target=OrderLineSell(int,\ Item)
+comment1.params=idOls
+comment1.target=void\ setId(int)
+comment2.params=
+comment2.target=int\ getQuantity()
+comment3.params=
+comment3.target=void\ decreaseNoInStock()
+comment4.params=
+comment4.target=java.lang.String\ getItemName()
+comment5.params=
+comment5.target=int\ getPrice()
+numComments=6

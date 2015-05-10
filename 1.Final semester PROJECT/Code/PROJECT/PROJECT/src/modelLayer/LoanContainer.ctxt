@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LoanContainer()
+comment1.params=
+comment1.target=LoanContainer\ getInstance()
+comment2.params=l
+comment2.target=void\ addLoan(Loan)
+comment3.params=idL
+comment3.target=Loan\ findLoan(int)
+comment4.params=idL\ status
+comment4.target=void\ updateLoan(int,\ java.lang.String)
+comment5.params=idL
+comment5.target=void\ deleteLoan(int)
+comment6.params=
+comment6.target=int\ getLoansNo()
+comment7.params=
+comment7.target=int\ getTotalAmountLoans()
+numComments=8

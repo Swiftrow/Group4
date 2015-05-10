@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SellContainer()
+comment1.params=
+comment1.target=SellContainer\ getInstance()
+comment2.params=s
+comment2.target=void\ addSell(Sell)
+comment3.params=idS
+comment3.target=Sell\ findSell(int)
+comment4.params=idS
+comment4.target=void\ deleteSell(int)
+comment5.params=
+comment5.target=int\ getSellsNo()
+comment6.params=
+comment6.target=int\ getTotalAmountSells()
+numComments=7

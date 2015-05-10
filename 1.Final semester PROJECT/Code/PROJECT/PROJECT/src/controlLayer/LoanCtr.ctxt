@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LoanCtr()
+comment1.params=date\ period\ c\ e
+comment1.target=void\ createLoan(java.lang.String,\ java.lang.String,\ modelLayer.Customer,\ modelLayer.Employee)
+comment2.params=orderLineLoan
+comment2.target=void\ addItemToLoan(modelLayer.OrderLineLoan)
+comment3.params=
+comment3.target=int\ getId()
+comment4.params=idL
+comment4.target=modelLayer.Loan\ findLoan(int)
+comment5.params=idL\ status
+comment5.target=void\ updateLoanStatus(int,\ java.lang.String)
+comment6.params=idL
+comment6.target=void\ deleteLoan(int)
+comment7.params=
+comment7.target=int\ getLoansNo()
+comment8.params=
+comment8.target=int\ getTotalAmountLoans()
+numComments=9

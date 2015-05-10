@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CustomerContainer()
+comment0.text=\r\n\ Constructor\ af\ an\ ArrayList\ of\ type\ Customer.\r\n\ @param\ customers\ The\ \ array\ list\ that\ holds\ all\ the\ Customer\ objects.\r\n
+comment1.params=
+comment1.target=CustomerContainer\ getInstance()
+comment1.text=\r\n\ Singleton\ pattern\ which\ ensure\ that\ only\ one\ instance\ of\ a\ class\ is\ created.\r\n\ @param\ instance\ The\ instance\ of\ the\ PersonContainer\ class.\r\n
+comment2.params=c
+comment2.target=void\ addCustomer(Customer)
+comment2.text=\r\n\ Add\ a\ given\ Customer\ object\ in\ the\ customers\ ArrayList.\r\n\ @param\ c\ The\ new\ Customer\ object.\r\n\ @param\ idC\ The\ id\ that\ keeps\ incrementing\ for\ every\ customer\ you\ add.\r\n
+comment3.params=idC
+comment3.target=Customer\ findCustomer(int)
+comment3.text=\r\n\ Get\ a\ Customer\ object\ by\ a\ given\ ID.\r\n\ @param\ idC\ The\ ID\ of\ a\ person.\r\n
+comment4.params=idC\ name\ address\ phoneNo\ email\ type
+comment4.target=void\ updateCustomer(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ Update\ the\ Customer\ object\ information\ such\ as\ name,\ address,\ phone\ number,\ email.\r\n\ @param\ idC\ the\ ID\ of\ the\ soon\ to\ be\ updated\ Customer\ object.\r\n\ @param\ name\ The\ name\ of\ the\ customer.\r\n\ @param\ address\ The\ address\ of\ the\ customer.\r\n\ @param\ phoneNo\ The\ phone\ number\ of\ the\ customer.\r\n\ @param\ email\ The\ email\ of\ the\ customer.\r\n
+comment5.params=idC
+comment5.target=void\ deleteCustomer(int)
+comment5.text=\r\n\ Delete\ a\ Customer\ object\ from\ the\ customers\ ArryList.\r\n\ @param\ idC\ The\ ID\ of\ the\ Customer\ object\ to\ be\ deleted.\r\n
+numComments=6

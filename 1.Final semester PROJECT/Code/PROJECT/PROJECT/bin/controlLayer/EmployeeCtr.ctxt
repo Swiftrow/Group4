@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=EmployeeCtr()
+comment1.params=name\ address\ phoneNo\ email\ employeeId
+comment1.target=void\ createEmployee(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment2.params=employeeId
+comment2.target=modelLayer.Employee\ findEmployee(int)
+comment3.params=employeeId\ name\ address\ phoneNo\ email
+comment3.target=void\ updateEmployee(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment4.params=employeeId
+comment4.target=void\ deleteEmployee(int)
+comment5.params=employeeId
+comment5.target=int\ getNoOfSells(int)
+comment6.params=employeeId
+comment6.target=int\ getNoOfLoans(int)
+comment7.params=employeeId
+comment7.target=int\ getMoneyMade(int)
+numComments=8

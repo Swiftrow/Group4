@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ItemContainer()
+comment0.text=\r\n\ Constructor\ af\ an\ ArrayList\ of\ type\ Item.\r\n\ @param\ items\ The\ \ array\ list\ that\ holds\ all\ the\ Item\ objects.\r\n
+comment1.params=
+comment1.target=ItemContainer\ getInstance()
+comment1.text=\r\n\ Singleton\ pattern\ which\ ensure\ that\ only\ one\ instance\ of\ a\ class\ is\ created.\r\n\ @param\ instance\ The\ instance\ of\ the\ PersonContainer\ class.\r\n
+comment2.params=i
+comment2.target=void\ addItem(Item)
+comment2.text=\r\n\ Add\ a\ given\ ITem\ object\ in\ the\ items\ ArrayList.\r\n\ @param\ i\ The\ new\ Item\ object.\r\n
+comment3.params=barcode
+comment3.target=Item\ findItem(int)
+comment3.text=\r\n\ Get\ a\ Item\ object\ by\ a\ given\ barcode.\r\n\ @param\ barcode\ The\ barcode\ of\ an\ item.\r\n
+comment4.params=barcode\ noInStock\ name\ description\ type\ minimumNo\ maximumNo\ price
+comment4.target=void\ updateItem(int,\ int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ int,\ int)
+comment4.text=\r\n\ Update\ the\ Item\ object\ information\ such\ as\ name,\ number\ in\ stock,\ description.\r\n\ @param\ barcode\ the\ barcode\ of\ the\ soon\ to\ be\ updated\ Item\ object.\r\n\ @param\ name\ The\ name\ of\ the\ item.\r\n\ @param\ noInStock\ The\ number\ in\ stock\ items.\r\n\ @param\ description\ The\ description\ fo\ the\ item.\r\n
+comment5.params=barcode
+comment5.target=void\ deleteItem(int)
+comment5.text=\r\n\ Delete\ a\ Item\ object\ from\ the\ items\ ArryList.\r\n\ @param\ barcode\ The\ barcode\ of\ the\ Item\ object\ to\ be\ deleted.\r\n
+numComments=6
