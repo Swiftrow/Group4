@@ -4,8 +4,8 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>105</x>
-      <y>56</y>
+      <x>42</x>
+      <y>70</y>
       <w>63</w>
       <h>105</h>
     </coordinates>
@@ -24,8 +24,8 @@ qualifications
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>308</x>
-      <y>70</y>
+      <x>245</x>
+      <y>84</y>
       <w>105</w>
       <h>77</h>
     </coordinates>
@@ -41,8 +41,8 @@ difficulty
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>105</x>
-      <y>189</y>
+      <x>42</x>
+      <y>203</y>
       <w>63</w>
       <h>105</h>
     </coordinates>
@@ -59,8 +59,8 @@ phone</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>308</x>
-      <y>203</y>
+      <x>245</x>
+      <y>217</y>
       <w>105</w>
       <h>91</h>
     </coordinates>
@@ -77,8 +77,8 @@ status
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>147</x>
-      <y>91</y>
+      <x>84</x>
+      <y>105</y>
       <w>174</w>
       <h>34</h>
     </coordinates>
@@ -91,22 +91,22 @@ m2=0..*
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>147</x>
-      <y>224</y>
+      <x>84</x>
+      <y>238</y>
       <w>174</w>
       <h>34</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
-m2=1..*
+m2=1
 </panel_attributes>
     <additional_attributes>21;21;161;21</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>336</x>
-      <y>126</y>
+      <x>273</x>
+      <y>140</y>
       <w>34</w>
       <h>90</h>
     </coordinates>
@@ -119,8 +119,8 @@ m2=1
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>469</x>
-      <y>203</y>
+      <x>406</x>
+      <y>217</y>
       <w>105</w>
       <h>91</h>
     </coordinates>
@@ -135,8 +135,8 @@ price
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>392</x>
-      <y>231</y>
+      <x>329</x>
+      <y>245</y>
       <w>90</w>
       <h>34</h>
     </coordinates>
@@ -149,8 +149,8 @@ m2=1
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>350</x>
-      <y>462</y>
+      <x>287</x>
+      <y>476</y>
       <w>105</w>
       <h>63</h>
     </coordinates>
@@ -164,8 +164,8 @@ chanels
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>462</x>
-      <y>462</y>
+      <x>399</x>
+      <y>476</y>
       <w>105</w>
       <h>63</h>
     </coordinates>
@@ -179,8 +179,8 @@ speed
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>574</x>
-      <y>462</y>
+      <x>511</x>
+      <y>476</y>
       <w>105</w>
       <h>63</h>
     </coordinates>
@@ -193,8 +193,8 @@ minutes
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>504</x>
-      <y>273</y>
+      <x>441</x>
+      <y>287</y>
       <w>132</w>
       <h>202</h>
     </coordinates>
@@ -207,8 +207,8 @@ m2=1
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>385</x>
-      <y>273</y>
+      <x>322</x>
+      <y>287</y>
       <w>139</w>
       <h>202</h>
     </coordinates>
@@ -220,8 +220,8 @@ m2=1</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>497</x>
-      <y>273</y>
+      <x>434</x>
+      <y>287</y>
       <w>34</w>
       <h>202</h>
     </coordinates>
@@ -233,8 +233,8 @@ m2=1</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>630</x>
-      <y>203</y>
+      <x>567</x>
+      <y>217</y>
       <w>105</w>
       <h>91</h>
     </coordinates>
@@ -246,8 +246,8 @@ serialNo</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>553</x>
-      <y>231</y>
+      <x>490</x>
+      <y>245</y>
       <w>90</w>
       <h>34</h>
     </coordinates>
@@ -260,8 +260,8 @@ m2=1
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>791</x>
-      <y>203</y>
+      <x>728</x>
+      <y>217</y>
       <w>105</w>
       <h>91</h>
     </coordinates>
@@ -275,8 +275,8 @@ name</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>714</x>
-      <y>231</y>
+      <x>651</x>
+      <y>245</y>
       <w>90</w>
       <h>34</h>
     </coordinates>
@@ -284,6 +284,6 @@ name</panel_attributes>
 m1=1..*
 m2=1
 </panel_attributes>
-    <additional_attributes>21;21;77;21</additional_attributes>
+    <additional_attributes>77;21;21;21</additional_attributes>
   </element>
 </diagram>
